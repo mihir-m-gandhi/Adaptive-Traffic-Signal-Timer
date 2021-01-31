@@ -34,7 +34,7 @@
 
 
 ------------------------------------------
-### Author
+### Authors
 Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
 
 Devansh Solanki - [devanshslnk](https://github.com/devanshslnk/)
