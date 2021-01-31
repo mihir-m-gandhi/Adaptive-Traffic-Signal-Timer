@@ -31,18 +31,6 @@
 ------------------------------------------
 ### Installation
 
-[...](* Clone the repo
-```sh
-    $ git clone https://github.com/nurdtechie98/drive-cli.git
-```
-* install the package:
-```sh
-    # move into package directory
-    $ cd drive-cli
-    # install package in edit mode
-    $ pip install -e . #note the dot
-```)
-
 
 
 ------------------------------------------
