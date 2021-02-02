@@ -45,8 +45,7 @@ Read more about object detection model used, working of the algorithm, and devel
  <img height=400px src="./vehicle-detection.png" alt="Vehicle Detection"></a>
 </p>
 
-
-
+<br> 
 
 * `Signal Switching Algorithm and Simulation`
 
