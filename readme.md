@@ -18,16 +18,42 @@
 
 * Traffic congestion is becoming one of the critical issues with the increasing population and automobiles in cities. Traffic jams not only cause extra delay and stress for the drivers but also increase fuel consumption and air pollution. 
 
-* According to the TomTom traffic index, 3 of the top 10 countries facing the most traffic congestion are in India viz. Mumbai, Bengaluru, and New Delhi.  People are compelled to spend hours stuck in traffic jams, wasting away their precious time commuting. 
+* According to the [TomTom traffic index](https://www.tomtom.com/en_gb/traffic-index/ranking/), 3 of the top 10 countries facing the most traffic congestion are in India viz. Mumbai, Bengaluru, and New Delhi.  People are compelled to spend hours stuck in traffic jams, wasting away their precious time commuting. Current traffic light controllers use a fixed timer and do not adapt according to the real-time traffic on the road.
 
-* This predicament motivated us to come up with an improved traffic management system in the form of a Computer Vision-based traffic light controller that can autonomously adapt to the traffic situation at the traffic signal. 
+* In an attempt to reduce traffic congestion, we developed an improved traffic management system in the form of a Computer Vision-based traffic light controller that can autonomously adapt to the traffic situation at the traffic signal. 
 
 ------------------------------------------
-### Details
+### Implementation Details
 
+This project can be broken down into 3 modules:
+
+1. `Vehicle Detection Module` - This module is responsible for detecting the number of vehicles in the image received as input from the camera. More specifically, it will provide as output the number of vehicles of each vehicle class such as car, bike, bus, truck, and rickshaw.
+
+2. `Signal Switching Algorithm` - This algorithm updates the red, green, and yellow times of all signals. Some of the factors that this algorithm takes into account while setting the timers are: 
+  * The processing time of the algorithm to calculate traffic density and then the green light duration which will decide at what time the image is acquired
+  * Number of lanes
+  * Total count of vehicles of each class received from the vehicle detection module
+  * Time added due to lag each vehicle suffers during start-up and the non-linear increase in lag suffered by the vehicles which are at the back
+  * The average speed of each class of vehicle when the green light starts i.e. the average time required to cross the signal by each class of vehicle
+  * The minimum and maximum time limit for the green light duration - to prevent starvation.
+
+3. `Simulation Module` - A simulation is developed from scratch using [Pygames]() library to simulate traffic signals and vehicles moving across a traffic intersection.
+
+Read more about object detection model used, working of the algorithm, and development of simulation [here](https://www.pygame.org/news).
 
 ------------------------------------------
 ### Demo
+
+* `Vehicle Detection`
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img height=200px src="./vechicle-detection.jpg" alt="Vehicle Detection"></a>
+</p>
+
+
+* `Signal Switching Algorithm and Simulation`
+
 <p align="center">
     <img src="./Demo.gif">
 </p>
