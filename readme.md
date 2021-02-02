@@ -29,17 +29,11 @@ This project can be broken down into 3 modules:
 
 1. `Vehicle Detection Module` - This module is responsible for detecting the number of vehicles in the image received as input from the camera. More specifically, it will provide as output the number of vehicles of each vehicle class such as car, bike, bus, truck, and rickshaw.
 
-2. `Signal Switching Algorithm` - This algorithm updates the red, green, and yellow times of all signals. Some of the factors that this algorithm takes into account while setting the timers are: 
-  * The processing time of the algorithm to calculate traffic density and then the green light duration which will decide at what time the image is acquired
-  * Number of lanes
-  * Total count of vehicles of each class received from the vehicle detection module
-  * Time added due to lag each vehicle suffers during start-up and the non-linear increase in lag suffered by the vehicles which are at the back
-  * The average speed of each class of vehicle when the green light starts i.e. the average time required to cross the signal by each class of vehicle
-  * The minimum and maximum time limit for the green light duration - to prevent starvation.
+2. `Signal Switching Algorithm` - This algorithm updates the red, green, and yellow times of all signals. These timers are set bases on the count of vehicles of each class received from the vehicle detection module and several other factors such as the number of lanes, average speed of each class of vehicle, etc. 
 
-3. `Simulation Module` - A simulation is developed from scratch using [Pygames]() library to simulate traffic signals and vehicles moving across a traffic intersection.
+3. `Simulation Module` - A simulation is developed from scratch using [Pygames](https://www.pygame.org/news)) library to simulate traffic signals and vehicles moving across a traffic intersection.
 
-Read more about object detection model used, working of the algorithm, and development of simulation [here](https://www.pygame.org/news).
+Read more about object detection model used, working of the algorithm, and development of simulation [here]().
 
 ------------------------------------------
 ### Demo
@@ -67,7 +61,7 @@ Read more about object detection model used, working of the algorithm, and devel
 ------------------------------------------
 ### Dissemination
 
-* This project was showcased at a national level project competition organized by [Government Polytechnic Mumbai](http://www.gpmumbai.ac.in/). View the presentation video [here](https://youtu.be/OssY5pzOyo0).
+* This project was showcased at a national level project competition organized by [Government Polytechnic Mumbai](http://www.gpmumbai.ac.in/). View our presentation video [here](https://youtu.be/OssY5pzOyo0).
 
 * Our paper based on this project has been accepted for publication in IEEE International Conference on Recent Advances and Innovations in Engineering - [ICRAIE 2020](http://www.icraie.poornima.org/). View the paper manuscript [here](https://drive.google.com/file/d/164j58YuMQMCqxh2Nld3oxoxCQxBsczKp/view?usp=sharing).
 
