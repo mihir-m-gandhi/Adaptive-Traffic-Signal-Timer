@@ -42,7 +42,7 @@ Read more about object detection model used, working of the algorithm, and devel
 
 <p align="center">
   <a href="" rel="noopener">
- <img height=200px src="./vechicle-detection.jpg" alt="Vehicle Detection"></a>
+ <img height=300px src="./vechicle-detection.png" alt="Vehicle Detection"></a>
 </p>
 
 
