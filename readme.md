@@ -47,6 +47,7 @@ Read more about object detection model used, working of the algorithm, and devel
 
 
 
+
 * `Signal Switching Algorithm and Simulation`
 
 <p align="center">
