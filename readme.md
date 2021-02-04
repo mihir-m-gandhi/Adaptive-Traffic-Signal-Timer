@@ -67,7 +67,7 @@ Read more about object detection model used, working of the algorithm, and devel
 * Our paper based on this project has been accepted for publication in IEEE International Conference on Recent Advances and Innovations in Engineering - [ICRAIE 2020](http://www.icraie.poornima.org/). View the paper manuscript [here](https://drive.google.com/file/d/164j58YuMQMCqxh2Nld3oxoxCQxBsczKp/view?usp=sharing).
 
 ------------------------------------------
-### Authors
+### Contributors
 
 Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
 
