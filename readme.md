@@ -55,11 +55,6 @@ Read more about object detection model used, working of the algorithm, and devel
 
 
 ------------------------------------------
-### Installation
-
-
-
-------------------------------------------
 ### Dissemination
 
 * This project was showcased at a national level project competition organized by [Government Polytechnic Mumbai](http://www.gpmumbai.ac.in/). View our presentation video [here](https://youtu.be/OssY5pzOyo0).
