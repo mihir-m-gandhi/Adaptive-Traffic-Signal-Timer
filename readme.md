@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img height=200px src="./traffic-signal.jpg" alt="Traffic Signal Timer"></a>
+ <img height=200px src="./traffic-signal.jpg" alt="Traffic Signal Timer">
 </p>
 
 <h1 align="center">Adaptive Traffic Signal Timer</h1>
@@ -41,8 +40,7 @@ Read more about object detection model used, working of the algorithm, and devel
 * `Vehicle Detection`
 
 <p align="center">
-  <a href="" rel="noopener">
- <img height=400px src="./vehicle-detection.png" alt="Vehicle Detection"></a>
+ <img height=400px src="./vehicle-detection.png" alt="Vehicle Detection">
 </p>
 
 <br> 
