@@ -5,7 +5,7 @@
 <h1 align="center">Adaptive Traffic Signal Timer</h1>
 
 <div align="center">
-
+[![Python version](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![License: Apache 2](https://img.shields.io/badge/License-Apache-yellow.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 <h4>This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.</h4>
@@ -51,6 +51,34 @@ Read more about object detection model used, working of the algorithm, and devel
     <img src="./Demo.gif">
 </p>
 
+------------------------------------------
+### Prerequisites
+
+1. [Python 3.7](https://www.python.org/downloads/release/python-370/)
+2. [Microsoft Visual C++ build tools](http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe.) (For Windows only)
+
+------------------------------------------
+### Installation
+
+ * Step I: Clone the Repository
+```sh
+      $ git clone https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
+```
+  * Step II: Install the required packages
+```sh
+      # On the terminal, move into Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow directory
+      $ cd Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow
+      $ pip install -r requirements.txt
+      $ python setup.py build_ext --inplace
+```
+* Step III: Run the code
+```sh
+      # To run vehicle detection
+      $ python vehicle_detection.py
+      
+      # To run simulation
+      $ python simulation.py
+```
 
 ------------------------------------------
 ### Dissemination
