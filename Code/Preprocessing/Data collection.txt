@@ -1,1 +1,0 @@
-Dataset CollectionPackage used:-google_images_downloadPrerequisite:-Selenium library and Chromedriver(for more than 100 images)After installing the above mentioned packagesOpen terminal and type the following commandgoogleimagesdownload --keywords "TYPE KEYWORDS OF IMAGES YOU WANT TO DOWNLOAD" --limit 100Images will be downloaded in a directory named downloads.
