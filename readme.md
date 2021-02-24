@@ -5,6 +5,7 @@
 <h1 align="center">Adaptive Traffic Signal Timer</h1>
 
 <div align="center">
+
 [![Python version](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![License: Apache 2](https://img.shields.io/badge/License-Apache-yellow.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
