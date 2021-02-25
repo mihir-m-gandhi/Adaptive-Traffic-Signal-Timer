@@ -61,18 +61,19 @@ Read more about object detection model used, working of the algorithm, and devel
 ------------------------------------------
 ### Installation
 
- * Step I: Clone the Repository
+* Step I: Clone the Repository
 ```sh
       $ git clone https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
 ```
-  * Step II: Install the required packages
+* Step II: Download the weights file from [here](https://drive.google.com/file/d/1C1Rd00ZLMQrK_qEBf9PYLckIixclCYAK/view?usp=sharing) and place it in the Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow/bin directory
+* Step III: Install the required packages
 ```sh
       # On the terminal, move into Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow directory
       $ cd Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow
       $ pip install -r requirements.txt
       $ python setup.py build_ext --inplace
 ```
-* Step III: Run the code
+* Step IV: Run the code
 ```sh
       # To run vehicle detection
       $ python vehicle_detection.py
