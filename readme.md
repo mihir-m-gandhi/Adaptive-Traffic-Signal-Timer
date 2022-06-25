@@ -33,7 +33,7 @@ This project can be broken down into 3 modules:
 
 3. `Simulation Module` - A simulation is developed from scratch using [Pygame](https://www.pygame.org/news) library to simulate traffic signals and vehicles moving across a traffic intersection.
 
-Read more about object detection model used, working of the algorithm, and development of simulation [here](https://gdoc.pub/doc/1gnYfIrSYyKWxfJaaE7Sfq3wBqMyP09TsuYCq_ZUX1qU).
+Read more about object detection model used, working of the algorithm, and development of simulation [here](./Adaptive Traffic Signal Timer - Implementation Details.pdf).
 
 ------------------------------------------
 ### Demo
